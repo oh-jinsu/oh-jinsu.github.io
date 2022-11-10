@@ -1,6 +1,6 @@
 ---
 date: 2022-10-16
-keywords: [Golang, 지연 시간, 로컬, AWS Fargate]
+keywords: [게임 개발, Golang, 지연 시간, 로컬, AWS Fargate]
 title: Golang 서버에서 로컬 및 AWS Fargate의 지연 시간 비교
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2021-12-21
 title: Flutter로 MVVM 패턴 구현하기
-keywords: [Flutter, MVVM]
+keywords: [프론트엔드, Flutter, MVVM]
 ---
 ## MVVM 패턴이란?
 MVVM 패턴은 프론트엔드를 모델과 뷰 그리고 뷰모델의 세 계층으로 나누는 설계다. 핵심은 뷰모델인데 뷰와 모델을 의존하지 않도록 분리해야 한다. <a href="https://pub.dev/packages/provider" target="_blank" rel="noreferrer">Provider</a>나 <a href="https://pub.dev/packages/get" target="_blank" rel="noreferrer">GetX</a>를 사용할 필요가 있을까? 구현을 쉽게 만들어 주지만 필수적이지는 않다. 거추장스러운 상태 관리 라이브러리를 사용하지 않고도 Flutter로 MVVM 패턴을 구현할 수 있다.

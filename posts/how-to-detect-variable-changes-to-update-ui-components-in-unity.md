@@ -1,7 +1,7 @@
 ---
 date: 2022-10-22
 title: 유니티 UI 갱신을 위해 변수 변화 감지하는 법
-keywords: [유니티, UI 컴포넌트, 변수 변화 감지]
+keywords: [게임 개발, 유니티, UI 컴포넌트, 변수 변화 감지]
 ---
 유니티 개발에도 안드로이드 Koltin의 `LiveData`나 ReactiveX의 `BehaviorSubject`와 같은 컨셉을 사용하면 된다.
 

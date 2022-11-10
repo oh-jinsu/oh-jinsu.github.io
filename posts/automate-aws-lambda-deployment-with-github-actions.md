@@ -1,7 +1,7 @@
 ---
 date: 2022-10-10
 title: Github Actions를 통한 AWS Lambda 배포 자동화
-keywords: [AWS Lambda, 배포 자동화, Github Actions, 컨테이너 이미지]
+keywords: [데브옵스, AWS Lambda, 배포 자동화, Github Actions, 컨테이너 이미지]
 ---
 ## 왜 Github Actions인가
 <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">Github Actions</a>는 Github에서 Push, Pull Request와 같은 특정한 이벤트가 발생할 때 개발자가 작성해 놓은 스크립트를 자동으로 실행시켜 주는 기능이다.

@@ -2,6 +2,8 @@ export const transform = async ([key, resolver]) => {
     const href = key.replace(".md", "")
     
     const { metadata, default: file } = await resolver();
+    
+    const category = metadata?.keywords?.[0]
 
     const { html } = file.render();
 
@@ -12,6 +14,7 @@ export const transform = async ([key, resolver]) => {
     return {
         href,
         ...metadata,
+        category,
         thumbnail,
         description,
         html
