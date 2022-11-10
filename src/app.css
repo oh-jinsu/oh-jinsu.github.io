@@ -14,7 +14,7 @@ p {
 }
 
 body {
-  padding: 0 16px;
+  margin: 8px 24px;
 }
 
 figure {
@@ -50,7 +50,7 @@ blockquote {
 code,
 pre[class*="language-"] {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 14px;
+  font-size: 13px;
   white-space: pre;
   line-height: 1.5;
   -moz-tab-size: 2;

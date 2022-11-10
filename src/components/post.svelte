@@ -6,7 +6,7 @@
     const { href, title, description, date, thumbnail } = item
 </script>
 
-<li>
+<article>
     {#if thumbnail}
         <figure class="thumbnail">
             <img src={thumbnail} alt="thumbnail" />
@@ -23,10 +23,10 @@
         </a>
         <p>{ description }..</p>
     </div>
-</li>
+</article>
 
 <style>
-    li {
+    article {
         border: 4px ridge;
 
         margin: 16px 0;

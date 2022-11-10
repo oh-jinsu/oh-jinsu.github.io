@@ -16,5 +16,7 @@
         border: 4px ridge;
 
         padding: 0 16px;
+
+        margin: 32px 0;
     }
 </style>

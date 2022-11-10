@@ -21,7 +21,9 @@
     <h2>새로운 게시글</h2>
     <ol>
         {#each posts as item}
-            <Post { item } />
+            <li>
+                <Post { item } />
+            </li>
         {/each}
     </ol>
 </Main>
