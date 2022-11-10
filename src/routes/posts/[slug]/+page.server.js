@@ -1,6 +1,8 @@
 import { error } from "@sveltejs/kit";
 import { transform } from "$functions/transform";
 
+export const csr = false;
+
 export const prerender = true;
 
 export async function load({ params }) {
