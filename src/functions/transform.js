@@ -9,8 +9,6 @@ export const transform = async ([key, resolver]) => {
 
     const thumbnail = html.match(/<[^>]*class="thumbnail.*">/g)?.[0].match(/src="[^"]*"/g)?.[0].replace(/(src=|")/g, "");
 
-    console.log(thumbnail)
-    
     return {
         href,
         ...metadata,

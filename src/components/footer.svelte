@@ -1,14 +1,11 @@
 <footer>
-    <hr />
-    <p>
-        © { new Date().getFullYear()} 오진수.
-    </p>
+    <a href="#root">맨위로</a>
 </footer>
 
 <style>
     footer {
-        max-width: var(--scren-width);
+        text-align: center;
 
-        margin: 32px auto;
+        margin: 32px 0;
     }
 </style>

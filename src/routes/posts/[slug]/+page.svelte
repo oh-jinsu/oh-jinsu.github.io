@@ -36,7 +36,7 @@
 
 <style>
     .content {
-        padding: 0 16px;
+        padding: 0 8px;
     }
 
     section {
