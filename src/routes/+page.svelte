@@ -15,11 +15,10 @@
 <Meta description={summary} />
 <Main>
     <div class="content">
-        <h1>Welcome to my blog</h1>
         {@html html}
-        <Contact />
-        <h2>새로운 게시글</h2>
     </div>
+    <Contact />
+    <h2>새로운 게시글</h2>
     <ol>
         {#each posts as item}
             <Post { item } />
@@ -29,6 +28,10 @@
 <Footer />
 
 <style>
+    h2 {
+        padding: 0 8px;
+    }
+
     .content {
         padding: 0 8px;
     }

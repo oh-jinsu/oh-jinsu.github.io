@@ -6,6 +6,7 @@
     import Datetime from "$components/datetime.svelte"
 
     import { TITLE } from "$constants"
+	import Contact from "../../../components/contact.svelte";
 
     export let data;
 
@@ -31,6 +32,7 @@
     <section class="content">
         {@html html}
     </section>
+    <Contact />
 </Main>
 <Footer />
 
