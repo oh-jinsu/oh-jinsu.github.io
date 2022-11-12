@@ -1,6 +1,6 @@
 ---
 date: 2022-11-11
-title: 어떻게 우리나라 시간을 ISO 8601으로 표현해야 하는가
+title: 어떻게 우리나라 시간을 ISO 8601로 표현해야 하는가
 keywords: [프로그래밍, ISO 8601, UTC Offset, Date]
 ---
 
