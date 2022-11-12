@@ -24,7 +24,7 @@
         <a href={href}>
             <h3>{ title }</h3>
         </a>
-        <p>{ description }..</p>
+        <p class="description">{ description }</p>
     </div>
 </article>
 
@@ -37,5 +37,9 @@
 
     .inner {
         padding: 0 16px;
+    }
+
+    .description {
+        word-break: break-all;
     }
 </style>

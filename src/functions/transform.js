@@ -7,7 +7,7 @@ export const transform = async ([key, resolver]) => {
 
     const { html } = file.render();
 
-    const description = html.match(/<p>*.+<\/p>/g).slice(0, 1).join().replace(/<[^>]*>/g, "")
+    const description = html.match(/<p>*.+<\/p>/g).slice(0, 1).join().replace(/<[^>]*>/g, "");
 
     const thumbnail = html.match(/<[^>]*class="thumbnail.*">/g)?.[0].match(/src="[^"]*"/g)?.[0].replace(/(src=|")/g, "");
 
