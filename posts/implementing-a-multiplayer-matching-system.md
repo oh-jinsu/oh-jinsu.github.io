@@ -5,7 +5,7 @@ title: 멀티플레이어 매칭 시스템 구현
 ---
 
 ## 안드로이드와 iOS 기기 간 통신
-<iframe class="youtube" src="https://www.youtube.com/embed/OwMUZ1BqyG0" title="Matching between devices in Unity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="youtube thumbnail" src="https://www.youtube.com/embed/OwMUZ1BqyG0" title="Matching between devices in Unity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 매칭 방식
 
