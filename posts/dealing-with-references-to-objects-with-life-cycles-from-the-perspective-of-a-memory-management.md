@@ -7,7 +7,7 @@ title: 메모리 관리 관점에서 생명주기를 가진 객체의 참조를 
 ## 생명주기란?
 일반적으로 생명주기는 어떤 객체가 생성되어서 소멸할 때까지의 기간을 말한다. 예를 들어 안드로이드에서 Activity라는 클래스는 다음과 같은 생명주기를 가지고 있다.
 
-<figure>
+<figure class="thumbnail">
   <img src="/images/activity_lifecycle.png" alt="activity_lifecycle.png" />
   <cite>Activity의 생명주기. 이미지 출처: <a href="https://developer.android.com/guide/components/activities/activity-lifecycle" target="_blank" rel="noreferrer">android developer</a></cite>
 </figure>

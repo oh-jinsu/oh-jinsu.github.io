@@ -8,9 +8,13 @@
 
 <article>
     {#if thumbnail}
-        <figure class="thumbnail">
-            <img src={thumbnail} alt="thumbnail" />
-        </figure>
+        {#if thumbnail.startsWith("https://www.youtube.com")}
+            <iframe class="video thumbnail" src={thumbnail} title={title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {:else}
+            <figure class="thumbnail">
+                <img src={thumbnail} alt="thumbnail" />
+            </figure>
+        {/if}
     {/if}
     <div class="inner">
         <p>
@@ -41,5 +45,15 @@
 
     .description {
         word-break: break-all;
+    }
+
+    .video {
+        aspect-ratio: 16/9;
+    }
+
+    .thumbnail {
+        margin: 0;
+
+        width: 100%;
     }
 </style>
