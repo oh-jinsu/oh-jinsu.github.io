@@ -6,13 +6,13 @@
     import Datetime from "$components/datetime.svelte"
 
     import { TITLE } from "$constants"
-	import Contact from "../../../components/contact.svelte";
+	import Contact from "$components/contact.svelte";
 
     export let data;
 
     const { cur, prev, next } = data;
 
-    const { title, description, category, keywords, date, thumbnail, html } = cur;
+    const { title, description, keywords, date, thumbnail, html } = cur;
 </script>
 
 <Meta { title } { description } { keywords } { thumbnail } />
@@ -20,9 +20,6 @@
     <header>
         <p>
             <a href="/">{ TITLE }</a>
-            {#if category}
-                / {category}
-            {/if}
         </p>
         <h1>{title}</h1>
         <p>

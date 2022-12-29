@@ -3,7 +3,7 @@
 
     export let item;
 
-    const { href, title, description, category, date, thumbnail } = item
+    const { href, title, description, date, thumbnail } = item
 </script>
 
 <article>
@@ -18,9 +18,6 @@
     {/if}
     <div class="inner">
         <p>
-            {#if category}
-                {category} /
-            {/if}
             {#if date}
                 <Datetime { date } />
             {/if}
