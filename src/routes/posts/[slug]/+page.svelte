@@ -36,10 +36,10 @@
         <Contact />
         <h2>다른 게시글</h2>
         {#if prev}
-            <Post item={prev} />
+            <Post item={prev} nothumbnail />
         {/if}
         {#if next}
-            <Post item={next} />
+            <Post item={next} nothumbnail />
         {/if}
     </footer>
 </Main>

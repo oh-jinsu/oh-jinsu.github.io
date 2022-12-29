@@ -3,11 +3,13 @@
 
     export let item;
 
+    export let nothumbnail = false;
+
     const { href, title, description, date, thumbnail } = item
 </script>
 
 <article>
-    {#if thumbnail}
+    {#if thumbnail && !nothumbnail}
         {#if thumbnail.startsWith("https://www.youtube.com")}
             <iframe class="video thumbnail" src={thumbnail} title={title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {:else}
