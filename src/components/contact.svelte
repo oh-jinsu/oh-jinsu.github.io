@@ -19,6 +19,6 @@
 
         padding: 0 16px;
 
-        margin: 32px 8px;
+        margin: 32px 0px;
     }
 </style>
