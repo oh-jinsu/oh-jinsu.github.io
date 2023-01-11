@@ -7,6 +7,7 @@
 
     import { TITLE } from "$constants"
 	import Contact from "$components/contact.svelte";
+	import { structedData } from "../../../functions/structed_data";
 
     export let data;
 
@@ -14,6 +15,10 @@
 
     const { title, description, keywords, date, thumbnail, html } = cur;
 </script>
+
+<svelte:head>
+    {@html structedData(title, description, thumbnail, date)}
+</svelte:head>
 
 <Meta { title } { description } { keywords } { thumbnail } />
 <Main>
